@@ -27,6 +27,8 @@ def main():
                 case _:
                     pass
 
+        player.update(dt)
+
         screen.fill("black")
         player.draw(screen)
 
