@@ -11,10 +11,10 @@ PLAYER_SHOT_SPEED = 500
 PLAYER_SHOT_CD_SECONDS = 0.3
 
 PLAYER_KEYBINDS = {
-    "rotate_left": pygame.K_a,
-    "rotate_right": pygame.K_h,
-    "move_forward": pygame.K_d,
-    "move_backward": pygame.K_s,
+    "rotate_left": pygame.K_LEFT,
+    "rotate_right": pygame.K_RIGHT,
+    "move_forward": pygame.K_UP,
+    "move_backward": pygame.K_DOWN,
     "shoot": pygame.K_SPACE,
 }
 
