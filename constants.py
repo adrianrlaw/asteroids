@@ -1,2 +1,26 @@
+import pygame
+
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
+LINE_WIDTH = 2
+
+PLAYER_RADIUS = 20
+PLAYER_ROT_RATE = 300
+PLAYER_SPEED = 200
+PLAYER_SHOT_SPEED = 500
+PLAYER_SHOT_CD_SECONDS = 0.3
+
+PLAYER_KEYBINDS = {
+    "rotate_left": pygame.K_LEFT,
+    "rotate_right": pygame.K_RIGHT,
+    "move_forward": pygame.K_UP,
+    "move_backward": pygame.K_DOWN,
+    "shoot": pygame.K_SPACE,
+}
+
+ASTEROID_MIN_RADIUS = 20
+ASTEROID_KINDS = 3
+ASTEROID_SPAWN_RATE_SECONDS = 0.8
+ASTEROID_MAX_RADIUS = ASTEROID_MIN_RADIUS * ASTEROID_KINDS
+
+SHOT_RADIUS = 5
